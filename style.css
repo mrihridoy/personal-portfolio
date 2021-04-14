@@ -5,6 +5,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .half-width{
     width: 40%;
     float: left;
@@ -26,4 +29,29 @@ h1{
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+.dream-section-banner{
+    height: 500px;
+    background-image: url(assist/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experiance-section-banner{
+    height: 500px;
+    background-image: url(assist/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experiance-single{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    
+}
+#full-stack{
+    border-right: gray solid 10px;
+    
+}
+footer{
+    text-align: center;
 }
